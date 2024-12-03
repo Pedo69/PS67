@@ -2,7 +2,7 @@ a = {'milk': '50', 'bag': '100'}
 
 # Convert the string values to integers and add them
 milk_value = int(a['milk']) + int(a['bag'])
-
+print(milk_value)
 # Get the amount the user is paying
 try:
     price = int(input('Enter how much you are paying: '))
