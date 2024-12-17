@@ -1,0 +1,76 @@
+<mxfile host="65bd71144e">
+    <diagram id="4JyfgjYuypb9jUDFgIw_" name="Page-1">
+        <mxGraphModel dx="1130" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="375" y="40" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="รับค่าความกว้าง" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="375" y="140" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="รับค่าความยาว" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="375" y="240" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="เส้นความยาวรอบรูปสี่เหลี่ยม&amp;nbsp;= 2(ความยาว + ความกว้าง)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="278" y="350" width="295" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;" edge="1" parent="1" source="9" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="print: เเสดงค่าเส้นรอบรูปสี่เหลี่ยม" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="460" width="190" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="375" y="560" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;" edge="1" parent="1" source="14" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="837" y="40" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;" edge="1" parent="1" source="16" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="รับค่าความกว้าง = 5" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="837" y="140" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;" edge="1" parent="1" source="18" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="รับค่าความยาว = 3" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="837" y="240" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="20" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="เส้นความยาวรอบรูปสี่เหลี่ยม&amp;nbsp;= 2(3 + 5)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="350" width="295" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;" edge="1" parent="1" source="22" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="print: 16" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="792" y="460" width="190" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="837" y="560" width="100" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
