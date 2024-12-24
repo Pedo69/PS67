@@ -1,17 +1,25 @@
+import time
 student_num = int(input('Enter your student count: '))
-
+start = time.time()
 for i in range(student_num):
     score = int(input(f'Enter score for student {i+1}: ')) 
     
     if score >= 80:
-        print('A')
+        grade = 'A'
+    elif score >= 75:
+        grade = 'B+'
     elif score >= 70:
-        print('B')
+        grade = 'B'
+    elif score >= 65:
+        grade = 'C+'
     elif score >= 60:
-        print('C')
+        grade = 'C'
+    elif score >= 55:
+        grade = 'D+'
     elif score >= 50:
-        print('D')
+        grade = 'D'
     else:
-        print('F')
-
+        grade = 'F'
+    print(f'student number {i+1} grade {grade}')
+print(f'Time taken: { (time.time()-start) * 1000:.2f} ms')
 print(f'Total number of students: {student_num}')

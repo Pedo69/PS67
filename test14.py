@@ -2,9 +2,9 @@ sum = 0
 while True:
     first_num = int(input('Enter you first number:'))
     last_num = int(input('Enter you last number:'))
-    a = int(input('Enter you divide number'))
+    divine_num = int(input('Enter you divide number'))
     for i in range(first_num + 1, last_num):
-        if i % a == 0:
+        if i % divine_num == 0:
             sum = i
             print(f'result is {sum}')
 
