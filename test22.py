@@ -45,9 +45,12 @@ class Queue:
             print("Queue is empty")
         print("Rear item is", self.Q[self.rear])
 
+    def print_queue(self):
+        
+
     # Driver Code
 if __name__ == '__main__':
-    queue = Queue(30)
+    queue = Queue(5)
     queue.EnQueue(10)
     queue.EnQueue(20)
     queue.EnQueue(30)
@@ -55,3 +58,4 @@ if __name__ == '__main__':
     queue.DeQueue()
     queue.que_front()
     queue.que_rear()
+    queue.print_queue()
