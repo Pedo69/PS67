@@ -1,3 +1,4 @@
+print('***calculate เงินต่างชาติ***')
 y = int(input('Enter you money:'))
 b = int(input('1.ดอนล่า 2.ยูโร:'))
 
@@ -7,3 +8,4 @@ else:
     price = y // 35
 
 print(f'you thai bath {y} you change {price:.2f}')
+print('***End programe***')
